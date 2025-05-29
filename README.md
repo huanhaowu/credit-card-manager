@@ -65,7 +65,7 @@ Se desarrolló la maquetación e interacción del formulario de tarjeta de créd
 3. ✅ Al editar los campos (número, fecha y nombre), se actualiza el diseño visual de la tarjeta.
 4. ✅ Al pulsar el botón **Agregar tarjeta**:
    - Se valida que el formulario esté completo y correcto.
-   - Se agrega la tarjeta a una lista visible con nombre, fecha y número enmascarado (`************1234`).
+   - Se agrega la tarjeta a una lista visible con nombre, fecha y número enmascarado (`12**********1234`).
    - Se asigna un identificador único a cada tarjeta.
 5. ✅ Al pulsar el botón **Cancelar**, se limpian todos los campos del formulario.
 6. ✅ Se añadió una funcionalidad adicional que permite ver todas las tarjetas de crédito almacenadas (**GET all**).
