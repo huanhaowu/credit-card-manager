@@ -122,7 +122,6 @@ export default function CreditCardList({ cards, loading, error, onRefresh }: Cre
                                 <div className="flex items-center justify-between mb-3">
                                     <div className="flex items-center space-x-2">
                                         {getCardTypeIcon(card.card_issuer)}
-                                        <span className="font-medium text-sm uppercase">{card.card_issuer}</span>
                                     </div>
                                     <span className="text-xs text-gray-500">{getCardAddedDate(card.expirationDate)}</span>
                                 </div>
